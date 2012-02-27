@@ -24,6 +24,8 @@ public class MainActivity extends ListActivity {
         setListAdapter(mAdapter);
     }
     
+    
+    // 如果这个时间长的话，要单独放到一个线程中
     private ArrayList<MyFolder> getFolderList(String baseDir) {
         ArrayList<MyFolder> myFolderList = new ArrayList<MyFolder>();
         
