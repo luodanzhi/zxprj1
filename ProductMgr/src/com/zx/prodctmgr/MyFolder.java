@@ -6,11 +6,11 @@ public class MyFolder {
     public String name; // 文件名
     public File   file; // 文件句柄
  
-    public MyFolder(String name) {
-        this.name = name;
+    public MyFolder(String _name) {
+        this.name = _name;
     }
     
-    public MyFolder(String name, File file) {
-        this.name = name;
+    public MyFolder(String _name, File _file) {
+        this.name = _name;
     }
 }

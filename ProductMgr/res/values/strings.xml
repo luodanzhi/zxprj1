@@ -4,5 +4,6 @@
     <string name="hello">Hello World, ProductMgrActivity!</string>
     <string name="app_name">ProductMgr</string>
     <string name="main_title">主界面</string>
+    <string name="product_title">产品列表</string>
 
 </resources>
