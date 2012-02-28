@@ -23,6 +23,11 @@
             android:label="@string/product_title"
             android:name=".ProductListActivity" >
         </activity>
+        <activity
+            android:label="@string/detail_title"
+            android:name=".DetailActivity" >
+        </activity>
+
     </application>
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>

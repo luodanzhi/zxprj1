@@ -53,8 +53,8 @@ public class ProductAdapter extends BaseAdapter {
         } else {
         }
         
-        TextView folderLabel = (TextView) convertView.findViewById(R.id.textview);
-        folderLabel.setText(mMyProductList.get(position).name);
+        TextView ProductLabel = (TextView) convertView.findViewById(R.id.textview);
+        ProductLabel.setText(mMyProductList.get(position).name);
         return convertView;
 	}
 
