@@ -1,5 +1,22 @@
-<<<<<<< HEAD
-Test!
-=======
-hello
->>>>>>> 99a417670259fdffc7735c745f9fa5b232f55bd9
+目录设计的结构
+根目录
+/sdcard/productmgr
+里面是厂家的目录, 再下是产品目录
+
+示例如下
+productmgr/
+|-- moto
+|   |-- \344\272\247\345\223\2011
+|   |   |-- linux_kernel_modules_progaramming.pdf
+|   |   `-- rfc4627.txt
+|   `-- \344\272\247\345\223\2012
+|       |-- linux_kernel_modules_progaramming.pdf
+|       `-- rfc4627.txt
+`-- samsung
+    |-- \344\272\247\345\223\2011
+    |   |-- linux_kernel_modules_progaramming.pdf
+    |   `-- rfc4627.txt
+    `-- \344\272\247\345\223\2012
+        |-- linux_kernel_modules_progaramming.pdf
+        |-- rfc4627.txt
+
